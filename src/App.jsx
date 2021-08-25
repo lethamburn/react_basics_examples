@@ -1,5 +1,5 @@
 import React from "react";
-import { Contador } from "./components";
+import { Contador, SizeListener } from "./components";
 import "./App.scss";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       {/* <h1>Listado de perfiles</h1>
       <Form addProfile={addProfile} />
       <ProfileCard profiles={profiles} /> */}
-      <Contador />
+      <SizeListener />
     </div>
   );
 };
