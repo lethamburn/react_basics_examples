@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-function Contador() {
+function Counter() {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -17,4 +17,4 @@ function Contador() {
   )
 };
 
-export default Contador;
+export default Counter;

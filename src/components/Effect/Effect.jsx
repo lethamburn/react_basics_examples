@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 
 function Effect() {
   useEffect(function () {
-    console.log("Renderizado");
+    console.log("Rendered");
   });
 
-  return <p>Así funciona useEffect</p>;
+  return <p>This is how useEffect works!</p>;
 }
 
 export default Effect;

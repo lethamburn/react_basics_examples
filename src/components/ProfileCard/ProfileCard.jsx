@@ -9,7 +9,7 @@ const ProfileCard = ({ profiles }) => {
             <h3>
               {profile.name} {profile.address}
             </h3>
-            <p>Ciudad: {profile.location}</p>
+            <p>City: {profile.location}</p>
             <img src={profile.image} alt="" width="200" />
           </div>
         );

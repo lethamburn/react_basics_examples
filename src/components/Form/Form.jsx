@@ -33,7 +33,7 @@ const Form = (props) => {
     <form onSubmit={submitForm}>
       <fieldset>
         <label>
-          <p>Nombre</p>
+          <p>Name</p>
           <input
             type="text"
             name="name"
@@ -43,7 +43,7 @@ const Form = (props) => {
         </label>
 
         <label>
-          <p>Apellidos</p>
+          <p>Address</p>
           <input
             type="text"
             name="address"
@@ -53,7 +53,7 @@ const Form = (props) => {
         </label>
 
         <label>
-          <p>Ciudad</p>
+          <p>City</p>
           <input
             type="text"
             name="location"
@@ -63,7 +63,7 @@ const Form = (props) => {
         </label>
 
         <label>
-          <p>Imagen</p>
+          <p>Image</p>
           <input
             type="text"
             name="image"
@@ -79,7 +79,7 @@ const Form = (props) => {
         </div>
 
         <div>
-          <button type="submit">Guardar Perfil</button>
+          <button type="submit">Save Profile</button>
         </div>
       </fieldset>
     </form>

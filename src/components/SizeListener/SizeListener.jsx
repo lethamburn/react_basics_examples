@@ -20,7 +20,7 @@ function SizeListener() {
 
   return (
     <div>
-      <p>Width es de {width}px</p>
+      <p>Width = {width}px</p>
     </div>
   );
 }
